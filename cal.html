@@ -1,0 +1,48 @@
+<html>
+	<head>
+	<title>
+		calculator
+	</title>
+	<link rel="stylesheet" href= "cal.css"/>
+	</head>
+	<body>
+		<div class ="container">
+			<h2>CALCULATOR</h2>
+			<div class="nums">
+				
+				<table>
+					<input type="text" id="screen" readonly />
+					<tr>
+						<td><button id ="btn1" onclick="allNumber(1)">1</button></td>
+						<td><button id ="btn2" onclick="allNumber(2)">2</button></td>
+						<td><button id ="btn3" onclick="allNumber(3)">3</button></td>
+						<td><button id ="btn4" onclick="allNumber(4)">4</button></td>
+					</tr>
+					<tr>
+						<td><button id ="btn5" onclick="allNumber(5)">5</button></td>
+						<td><button id ="btn6" onclick="allNumber(6)">6</button></td>
+						<td><button id ="btn7" onclick="allNumber(7)">7</button></td>
+						<td><button id ="btn8" onclick="allNumber(8)">8</button></td>
+					</tr>
+					<tr>
+						<td><button id ="btn9" onclick="allNumber(9)">9</button></td>
+						<td><button id ="btn0" onclick="allNumber(0)">0</button></td>
+						<td><button id ="btn." onclick="allNumber('.')">.</button></td>
+						<td><button id ="btn=" onclick="equalsSign()">=</button></td>
+					</tr>
+					<tr>
+						<td><button id ="btn+" onclick="plusSign()">+</button></td>
+						<td><button id ="btn-" onclick="minusSign()">-</button></td>
+						<td><button id ="btn*" onclick="multiplicationSign()">*</button></td>
+						<td><button id ="btn/" onclick="divisionSign()">/</button></td>
+						<td><button id ="btnc" onclick="clearNumber()">C</button></td>
+					</tr>
+				
+				</table>
+				
+			</div>
+		</div>
+		
+	<script src= "cal.js"></script>
+	</body>
+</html>

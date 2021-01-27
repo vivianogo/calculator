@@ -1,0 +1,17 @@
+.nums{
+	background: red;
+	height: 500px;
+	width: 300px;
+	padding-top: 20px;
+	text-align:center;
+	margin: auto;
+}
+
+.nums button{
+	margin: auto;
+	
+}
+
+#screen{
+	overflow: ;
+}
